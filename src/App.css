@@ -14,7 +14,11 @@
 	src: url('./assets/font/CentraNo2-Book.ttf');
 	font-weight: 400;
 }
-
+@font-face {
+	font-family: Spacetron;
+	src: url('./assets/font/spacetron-3.ttf');
+	font-weight: 400;
+}
 @import url(//db.onlinewebfonts.com/c/3e13bee6781c476e142a2bca4d9ab99c?family=Kunstler+Script);
 
 /************ Default Css ************/
@@ -115,9 +119,10 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
 
 .joohajan {
   color: #f1f1f1;
-  font-family: 'Kunstler Script', cursive;
+  font-family: 'Spacetron';
+  /* -webkit-break-after: ; */
   /* width: 30%; */
-  font-size: 70px;
+  font-size: 35px;
 }
 span.navbar-text {
     display: flex;
